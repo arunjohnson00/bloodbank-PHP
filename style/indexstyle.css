@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0px;
+padding: 0px}
+
+.body{
+  
+    width: 100%;
+    height: auto;
+}
+.bloodbank{
+    font-weight:bold;
+    text-align: center;
+    font-size: 60px;
+    background: -webkit-linear-gradient(#f57c7c,#8c6388);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    font-family: 'Merienda', cursive;
+    margin-top:10%
+}
+.become{
+   background:linear-gradient(180deg, #ff7e7d, #ae6b84);
+   font-weight: bold;
+   border:none;
+   border-radius:4px;
+   height: 50px;
+   color:white;
+   width:150px
+}
+.img{
+  width:25%;
+  margin-left:37%;
+  margin-top:0%;
+}
+.mainbox{
+   display: flex;
+   justify-content: space-around;
+}
+.bcm{
+  
+   border-radius:30px;
+   margin-top:3%
+}
+.adm{
+   
+   border-radius:30px;
+   margin-top:3%;
+   float: left;
+}
+@media only screen and (max-width:1210px){
+   .become{
+   background:linear-gradient(180deg, #ff7e7d, #b2888880);
+   border:none;
+   border-radius:4px;
+   height: 50px;
+   color:white;
+   width:150px;
+   margin-left: -20%;
+   font-weight: bold;
+}
+}
+@media only screen and (max-width:800px){.body{
+   /*background:url(https://www.seekpng.com/png/detail/251-2517178_blood-logo-www-blood-donation-png-logo.png)no-repeat center;*/
+    width: 100%;
+    height: 700px;
+}
+.become{
+   background:linear-gradient(180deg, #ff7e7d, #b2888880);
+   border:none;
+   border-radius:30px;
+   height: 50px;
+   color:white;
+   width:150px;
+   visibility: hidden;
+   font-weight: bold;
+}
+.img{
+  width:25%;
+  margin-left:31%;
+  margin-top:0%;
+}
+
+.bcm{
+   margin-left:48%;
+   border-radius:30px;
+   margin-top:3%
+}
+.adm{
+   margin-left:80%;
+   border-radius:30px;
+   margin-top:3%
+}
+}
+@media only screen and (max-width:600px){.body{
+   /*background:url(https://www.seekpng.com/png/detail/251-2517178_blood-logo-www-blood-donation-png-logo.png)no-repeat center;*/
+    width: 100%;
+    height: 700px;
+}
+.become{
+   background:linear-gradient(180deg, #ff7e7d, #b2888880);
+   border:none;
+   border-radius:30px;
+   height: 50px;
+   color:white;
+   /*width: 200px;*/
+   /*display:none;*/
+  position: absolute;
+  margin:75% 0px 0px 23%;
+ 
+}
+.img{
+  width:25%;
+  margin-left:31%;
+  margin-top:0%;
+}
+
+.bcm{
+   margin-left:8%;
+   border-radius:30px;
+   margin-top:3%
+}
+.adm{
+   margin-left:80%;
+   border-radius:30px;
+   margin-top:3%
+}
+}

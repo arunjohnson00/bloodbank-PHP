@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0px;
+padding: 0px}
+
+
+.aa{
+    color:white;
+    background:red;
+}
+.table{
+background:#e6fff2;
+
+}
+.subtable{
+background-color: #ff7675;
+color: white;
+
+}
+.sbtable{
+background-color: white;
+text-transform: capitalize;
+}
+.demotable{
+margin-top: 5%;
+
+display: flex;
+justify-content: center;
+
+}   
+.searchblood{
+    color:#ff7675;
+    margin-left:7%;
+    margin-top: 12%;
+}
+.blood:hover{
+   border-radius:4px;
+   border: 2px solid #ff7675;
+   width:190px;
+   height: 46px;
+   color:green;
+}
+.input{
+    width:80%;
+    border-radius:4px;
+    height:50px;
+    border:2px solid #ff7675;
+    padding-left:40px;
+    margin-left:7%
+}
+.button{
+    background:#ff7675;
+    color:white;
+    border:none;
+    width: 100px;
+    border-radius:4px;
+    height:50px;
+}

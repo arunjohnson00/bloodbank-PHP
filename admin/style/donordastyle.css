@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0px;
+padding: 0px}
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+  /*  background-color: #543c52;*/
+}
+.aa{
+    color:white;
+    background:red;
+}
+.back{
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+}
+.table{
+background:#543c52;
+
+}
+.bck{
+    background:linear-gradient(180deg, #ff7e7d, #ae6b84);
+    font-weight: bold;
+    border:none;
+    border-radius:4px;
+    height: 50px;
+    color:white;
+    width:150px
+}
+.subtable{
+background-color: #ff7675;
+color: white;
+
+}
+.sbtable{
+background-color: white;
+text-transform: capitalize;
+color: rgb(103 119 141)
+}
+.demotable{
+
+
+display: flex;
+flex-direction: column;
+
+}   
+.searchblood{
+    color:#ff7675;
+    margin-left:7%;
+    margin-top: 12%;
+}
+.blood:hover{
+   border-radius:4px;
+   border: 2px solid #ff7675;
+   width:190px;
+   height: 46px;
+   color:green;
+}
+.input{
+    width:80%;
+    border-radius:4px;
+    height:50px;
+    border:2px solid #ff7675;
+    padding-left:40px;
+    margin-left:7%
+}
+.button{
+    background:#ff7675;
+    color:white;
+    border:none;
+    width: 100px;
+    border-radius:4px;
+    height:50px;
+}

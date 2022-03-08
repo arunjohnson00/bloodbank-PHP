@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0px;
+padding: 0px}
+
+
+
+
+
+
+.aa{
+    color:white;
+background:#ff7675;
+text-align:center;
+font-size:40px;
+margin-bottom:50px;
+width: 100%;
+
+}
+.ab{
+  color:green;
+  margin-left:50%;
+ 
+}
+.ac{
+  margin-top:5%
+}
+/*.image{
+background-image:url('https://media.istockphoto.com/photos/a-person-holding-red-heart-in-hands-donate-and-family-insurance-on-picture-id1164870804?k=20&m=1164870804&s=612x612&w=0&h=v3hoZeVZ2AM4SRBAe6w_UgpZtPXQTExDpOCt6Tfr5_A=');
+background-repeat:no-repeat;
+background-size:100%;
+height: 660px;
+padding-top:5%
+
+
+}*/
+
+.form-horizontal .form-group {
+/* margin-right: -15px; */
+margin-left: -15px;
+}
+
+
+
